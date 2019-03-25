@@ -1,0 +1,56 @@
+
+/* > SELETOR POR REFERENCIA , VAI NO TBODY E PEGA O FILHO DIRETO , (OLD = IMPARES) */
+
+
+
+tbody> tr:nth-child(odd) {
+    background-color: #DFDFDFDF;
+}
+
+.planos {
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.autonomo {
+    background-color: #0078C1;
+}
+
+.pequenas-empresas {
+    background-color: #009E2C;
+}
+
+tr td:first-child {
+    text-align: left;
+}
+
+.comprar {
+    border: none;
+    text-transform:  uppercase;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: #FF5406;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 11px;
+
+    }
+.linha-botoes > th {
+    padding: 10px 0;
+    border-top: none;
+
+}
+
+.check-azul {
+    color: #1214B1;
+}
+
+.check-verde {
+    color:  #009E2C;
+
+}
+
+.linha-profissoes {
+    border-top: none;
+}
